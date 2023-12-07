@@ -1,0 +1,113 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>Tribute Page</title>
+  </head>
+  <body>
+    <main id="main">
+      <h1 id="title">Arthur Morgan</h1>
+      <p>A brother, most importantly a good man</p>
+      <figure id="img-div">
+        <img id="image" src="https://images8.alphacoders.com/952/952674.jpg" alt="Arthur Morgan holding a gun in Strawberry" >
+        <figcaption id="img-caption">Just Do One Thing Or The Other, Don’t Try To Be Two People At Once…</figcaption>
+      </figure>
+      <section id="tribute-info">
+        <h3 id="headline">Here's the life of Arthur Morgan</h3>
+        <ul>
+          <li>Arthur Morgan is the main protagonist in the video game "Red Dead Redemption 2," developed by Rockstar Games. He is a member of the Van der Linde gang, a group of outlaws led by Dutch Van der Linde. The game is set in the late 1800s, and Arthur's story unfolds against the backdrop of the declining Wild West.</li>
+          <li>At the beginning of the game, Arthur is a loyal and respected enforcer within the gang. However, as the story progresses, Arthur starts questioning the gang's actions and Dutch's leadership. Arthur undergoes a significant character arc, grappling with his own morality and the consequences of a life of crime.</li>
+          <li>As the gang faces increasing challenges and threats from lawmen and rival gangs, Arthur's perspective evolves. He begins to prioritize his own redemption and the well-being of those he cares about, especially after a health crisis forces him to confront his mortality.</li>
+          <li>Throughout the game, players make choices that impact Arthur's honor and relationships with other characters. Ultimately, Arthur's journey culminates in a gripping and emotional climax that contributes to the broader narrative of the Red Dead Redemption series. The game allows for multiple endings based on the player's decisions and Arthur's honor level, adding depth and replay value to the storyline.</li>
+        </ul>
+      </section>
+      <h3>If you have time, play <a id="tribute-link" href="https://store.steampowered.com/app/1174180/Red_Dead_Redemption_2/" target="_blank"> Red Dead Redemption 2</a> to know more about Arthur Morgan.</h3>
+    </main>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+
+body, h1, h3, p, figure, ul, li, a {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+}
+#main {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+}
+#title {
+  font-size: 2em;
+  color: #333;
+}
+p {
+  font-size: 1.2em;
+  color: #666;
+  margin-top: 10px;
+}
+#img-div {
+  margin-top: 20px;
+}
+
+#image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 100%;
+}
+
+#img-caption {
+  margin-top: 10px;
+  font-style: italic;
+  color: #888;
+}
+#tribute-info {
+  text-align: left;
+  margin-top: 20px;
+}
+
+#headline {
+  font-size: 1.5em;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  font-size: 1.1em;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+#tribute-link {
+  color: #0066cc;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#tribute-link:hover {
+  text-decoration: underline;
+}
+
+img {
+  display: block;
+}
+
+** end of undefined **
+
